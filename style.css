@@ -1,3 +1,92 @@
+/* colors i'm using: darkgoldenrod, goldenrod, gold, and purple (since purple is the complementary color of yellow) */
+
+:root {
+    /* for variables */
+    --main-font: "Poppins", Arial, sans-serif;
+}
+
 * {
     box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+}
+
+body {
+    background-color: darkgoldenrod;
+    font-family: var(--main-font);
+    color: purple;
+}
+
+header {
+    border: 1px solid purple;
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+}
+
+footer {
+    text-align: end;
+    border: 1px solid purple;
+}
+
+#page-title {
+    color: gold;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#header-deco {
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+
+#about-span {
+    font-size: 20px;
+    font-weight: bolder;
+    color: gold;
+}
+
+.subheading {
+    color: gold;
+    padding: 5px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    background-color: goldenrod;
+    border: 1px solid purple;
+    margin: 2px;
+    border-radius: 1rem;
+    padding: 3px;
+    width: 45%;
+    height: 100%;
+    text-align: left;
+}
+
+.profile-card {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-img {
+    width: 10rem;
+    border: 3px solid darkgoldenrod;
+    border-radius: 1rem;
+}
+
+.highlight {
+    color: purple;
+    font-weight: bolder;
+}
+
+.tag {
+    display: inline-block;
+    padding: 2px;
+    border: 3px solid purple;
+    border-radius: 1.5rem;
 }
